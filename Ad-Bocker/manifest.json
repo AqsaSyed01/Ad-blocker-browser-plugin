@@ -1,0 +1,21 @@
+{
+    "name": "Google Adblocker",
+    "version": "1.0",
+    "description": "Google Adblocker Tutorial",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "16": "icons/dimensions-03.png",
+        "48": "icons/dimensions-01.png",
+        "128": "icons/dimensions-02.png"
+    },
+    "manifest_version": 2
+}
